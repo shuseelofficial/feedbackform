@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: helvetica;
+
+}
+body{
+    background-color:#C7F1DB;
+}
+.main{
+    width: 500px;
+    margin: 50px auto;
+    border: 3px solid #b333b3;
+    border-radius: 10px;
+    background-color: wheat;
+    border-left: 35px solid gold;
+    box-shadow: 2px 2px 10px; #000
+}
+.info{
+    width: 100%;
+    padding: 8px;
+    background-color: darkred;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: honeydew;
+    text-shadow: 1px 1px 1px #000000;
+
+}
+.form-box{
+    padding: 30px;
+
+}
+label{
+    color: black;
+    font-size: 25px;
+}
+.inp, #msg-box{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border: 2px solid gray;
+    font-weight: bold;
+    border-right: 20px solid gray;
+    border-left: 20px solid gray;
+}
+.inp:focus, #msg-box:focus{
+    outline: none;
+    border-right: 20px solid navy;
+    border-left: 20px solid navy;
+}
+#msg-box{
+    resize: none;
+    height: 90px;
+}
+.sub-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#dc143c, #880000);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sub-btn{
+    outline: none;
+
+}
+.sub-btn:hover{
+    background: linear-gradient(#880000, #dc143c);
+    transition: all ease-out-in 0.5s;
+    opacity: 0.9;
+    filter: alpha(opacity=10);
+}
+@media(max-width:720px){
+    .main{
+       width: 90%; 
+    }
+}
